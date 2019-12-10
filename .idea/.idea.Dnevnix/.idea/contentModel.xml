@@ -46,7 +46,10 @@
             </e>
           </e>
         </e>
+        <e p="Settings.cs" t="Include" />
+        <e p="settings.xml" t="Include" />
         <e p="Tests" t="Include">
+          <e p="AuthBase.cs" t="Include" />
           <e p="TestBase.cs" t="Include" />
           <e p="TestLogin.cs" t="Include" />
           <e p="TestSettings.cs" t="Include" />
@@ -56,6 +59,6 @@
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Dnevnix.951059530.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Dnevnix.218998392.00" t="ExcludeRecursive" />
   </component>
 </project>

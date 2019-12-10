@@ -1,18 +1,18 @@
+using System;
 using NUnit.Framework;
 using ToDoList.Models;
 
 namespace ToDoList.Tests
 {
     [TestFixture]
-    public class TestTasks: TestBase
+    public class TestTasks: AuthBase
     {
 
         [Test, TestCaseSource(nameof(NoteFromXmlFile))]
         public void AddTask(Task task)
         {
-            App.Auth.Login(User.Current);
+            App.Navigation.NavigateToPage(Path.ListsPage);
             App.Task.AddTask(task);
-            App.Auth.LogOut();
         }
     }
 }

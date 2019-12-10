@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj": {}
+    "/Users/petr/Desktop/Testing/Coding/ToDoList/ToDoList/ToDoList.csproj": {}
   },
   "projects": {
-    "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj": {
+    "/Users/petr/Desktop/Testing/Coding/ToDoList/ToDoList/ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj",
+        "projectUniqueName": "/Users/petr/Desktop/Testing/Coding/ToDoList/ToDoList/ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj",
+        "projectPath": "/Users/petr/Desktop/Testing/Coding/ToDoList/ToDoList/ToDoList.csproj",
         "packagesPath": "/Users/petr/.nuget/packages/",
-        "outputPath": "/Users/petr/Desktop/ToDoList/ToDoList/obj/",
+        "outputPath": "/Users/petr/Desktop/Testing/Coding/ToDoList/ToDoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/petr/.config/NuGet/NuGet.Config"

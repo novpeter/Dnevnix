@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+    <BaseUrl>http://todolist.ru</BaseUrl>
+    <UserName>vover61220</UserName>
+    <Password>Qwerty123</Password>
+    <WrongPassword>Qwerty</WrongPassword>
+</Settings>

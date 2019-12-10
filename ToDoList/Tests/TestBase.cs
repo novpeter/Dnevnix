@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Xml.Serialization;
 using NUnit.Framework;
 using ToDoList.Models;
@@ -17,11 +18,17 @@ namespace ToDoList.Tests
         [SetUp]
         public void SetupTest() => App = AppManager.GetInstance();
 
+        [TearDown]
+        public void TearDown()
+        {
+            App.Navigation.NavigateToPage(Settings.BaseUrl);
+            Thread.Sleep(1500);
+        }
 
         protected static IEnumerable<Task> NoteFromXmlFile()
         {
             return (List<Task>)new XmlSerializer(typeof(List<Task>))
-                .Deserialize(new StreamReader(@"/Users/petr/Desktop/ToDoList/ToDoList/notes.xml"));
+                .Deserialize(new StreamReader(@"/Users/petr/Desktop/Testing/Coding/ToDoList/ToDoList/notes.xml"));
         }
         
         public static string GenerateRandomString(int length)
