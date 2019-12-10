@@ -1,0 +1,44 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
+    "projectName": "GenereatorProject",
+    "projectPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
+    "outputPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj": {
+            "projectPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
