@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Dnevnix;
+using ToDoList;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Threading.Tasks;
-using Dnevnix.Models;
-using Dnevnix.Tests;
+using ToDoList.Models;
+using ToDoList.Tests;
+using Task = ToDoList.Models.Task;
 
 namespace Dnevnix
 {
@@ -27,12 +28,11 @@ namespace Dnevnix
 
         private static void GenerateForNotes(int count, string filename, string format)
         {
-            var notes = new List<Note>();
+            var notes = new List<Task>();
             for (var i = 0; i < count; i++)
             {
-                notes.Add(new Note
+                notes.Add(new Task
                 {
-                    Title = TestBase.GenerateRandomString(5),
                     Text = TestBase.GenerateRandomString(20)
                 });
             }
@@ -47,8 +47,8 @@ namespace Dnevnix
             
         }
 
-        private static void WriteGroupsToXmlFile(List<Note> notes, StreamWriter writer)
-            => new XmlSerializer(typeof(List<Note>)).Serialize(writer, notes);
+        private static void WriteGroupsToXmlFile(List<Task> notes, StreamWriter writer)
+            => new XmlSerializer(typeof(List<Task>)).Serialize(writer, notes);
         
     }
 }

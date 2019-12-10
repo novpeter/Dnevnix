@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
+    "projectUniqueName": "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj",
     "projectName": "GenereatorProject",
-    "projectPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
-    "outputPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/obj/",
+    "projectPath": "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj",
+    "outputPath": "/Users/petr/Desktop/ToDoList/GenereatorProject/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.0"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp3.0": {
         "projectReferences": {
-          "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj": {
-            "projectPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj"
+          "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj": {
+            "projectPath": "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj"
           }
         }
       }

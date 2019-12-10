@@ -1,17 +1,65 @@
 {
   "format": 1,
   "restore": {
-    "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj": {}
+    "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj": {}
   },
   "projects": {
-    "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj": {
+    "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj",
-        "projectName": "Dnevnix",
-        "projectPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj",
+        "projectUniqueName": "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj",
+        "projectName": "GenereatorProject",
+        "projectPath": "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj",
         "packagesPath": "/Users/petr/.nuget/packages/",
-        "outputPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/obj/",
+        "outputPath": "/Users/petr/Desktop/ToDoList/GenereatorProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/petr/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj": {
+                "projectPath": "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj",
+        "projectName": "ToDoList",
+        "projectPath": "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj",
+        "packagesPath": "/Users/petr/.nuget/packages/",
+        "outputPath": "/Users/petr/Desktop/ToDoList/ToDoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/petr/.config/NuGet/NuGet.Config"
@@ -53,54 +101,6 @@
               "version": "[3.12.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
-        "projectName": "GenereatorProject",
-        "projectPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
-        "packagesPath": "/Users/petr/.nuget/packages/",
-        "outputPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/petr/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.0": {
-            "projectReferences": {
-              "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj": {
-                "projectPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.0": {
           "imports": [
             "net461",
             "net462",

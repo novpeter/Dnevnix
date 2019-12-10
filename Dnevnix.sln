@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnevnix", "Dnevnix\Dnevnix.csproj", "{D29D3A13-FC77-4D25-9EC4-8891F8A4A9F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{D29D3A13-FC77-4D25-9EC4-8891F8A4A9F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenereatorProject", "GenereatorProject\GenereatorProject.csproj", "{F1432816-ABE5-4F8C-ACE4-3FE68FE81368}"
 EndProject

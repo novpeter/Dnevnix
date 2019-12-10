@@ -4733,11 +4733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj",
+      "projectUniqueName": "/Users/petr/Desktop/ToDoList/Dnevnix/Dnevnix.csproj",
       "projectName": "Dnevnix",
-      "projectPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj",
+      "projectPath": "/Users/petr/Desktop/ToDoList/Dnevnix/Dnevnix.csproj",
       "packagesPath": "/Users/petr/.nuget/packages/",
-      "outputPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/obj/",
+      "outputPath": "/Users/petr/Desktop/ToDoList/Dnevnix/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/petr/.config/NuGet/NuGet.Config"

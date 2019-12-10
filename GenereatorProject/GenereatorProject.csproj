@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Dnevnix\Dnevnix.csproj" />
+      <ProjectReference Include="..\ToDoList\ToDoList.csproj" />
     </ItemGroup>
 
 </Project>

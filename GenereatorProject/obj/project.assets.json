@@ -1294,7 +1294,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Dnevnix/1.0.0": {
+      "ToDoList/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
@@ -1304,10 +1304,10 @@
           "nunit": "3.12.0"
         },
         "compile": {
-          "bin/placeholder/Dnevnix.dll": {}
+          "bin/placeholder/ToDoList.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Dnevnix.dll": {}
+          "bin/placeholder/ToDoList.dll": {}
         }
       }
     }
@@ -4732,15 +4732,15 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Dnevnix/1.0.0": {
+    "ToDoList/1.0.0": {
       "type": "project",
-      "path": "../Dnevnix/Dnevnix.csproj",
-      "msbuildProject": "../Dnevnix/Dnevnix.csproj"
+      "path": "../ToDoList/ToDoList.csproj",
+      "msbuildProject": "../ToDoList/ToDoList.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Dnevnix >= 1.0.0"
+      "ToDoList >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4749,11 +4749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
+      "projectUniqueName": "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj",
       "projectName": "GenereatorProject",
-      "projectPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/GenereatorProject.csproj",
+      "projectPath": "/Users/petr/Desktop/ToDoList/GenereatorProject/GenereatorProject.csproj",
       "packagesPath": "/Users/petr/.nuget/packages/",
-      "outputPath": "/Users/petr/Desktop/Dnevnix/GenereatorProject/obj/",
+      "outputPath": "/Users/petr/Desktop/ToDoList/GenereatorProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/petr/.config/NuGet/NuGet.Config"
@@ -4767,8 +4767,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj": {
-              "projectPath": "/Users/petr/Desktop/Dnevnix/Dnevnix/Dnevnix.csproj"
+            "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj": {
+              "projectPath": "/Users/petr/Desktop/ToDoList/ToDoList/ToDoList.csproj"
             }
           }
         }
